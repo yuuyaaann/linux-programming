@@ -1,3 +1,6 @@
+/**
+ * システムコール版 cat コマンド
+**/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
