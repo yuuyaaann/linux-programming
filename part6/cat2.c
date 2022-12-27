@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
             exit(1);
         }
         while((c = fgetc(f)) != EOF) {
-            if(putchar(c) < 0) exit 0;
+            if(putchar(c) < 0) exit (1);
         }
         fclose(f);
     }
